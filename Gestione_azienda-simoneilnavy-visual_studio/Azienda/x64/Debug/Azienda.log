@@ -1,0 +1,36 @@
+﻿  Employee.cpp
+C:\Users\11919\Desktop\Gestione_azienda-simoneilnavy-visual_studio\Azienda\Employee.cpp(19,7): warning C4834: il valore restituito della funzione con attributo 'nodiscard' verrà rimosso
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1236,56): error C2794: 'value_type' non è un membro di una classe di base diretta o indiretta di 'std::iterator_traits<_Iter>'
+          with
+          [
+              _Iter=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5296): message : vedere il riferimento all'istanza 'std::_Iter_value_t<std::string>' di modello alias di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342): message : vedere il riferimento al modello di variabile 'const bool _Memchr_in_find_is_safe<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >' di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5348): message : vedere il riferimento all'istanza '_InIt std::_Find_unchecked<_InIt,_Ty>(const _InIt,const _InIt,const _Ty &)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _InIt=std::string,
+              _Ty=std::string
+          ]
+C:\Users\11919\Desktop\Gestione_azienda-simoneilnavy-visual_studio\Azienda\Employee.cpp(19): message : vedere il riferimento all'istanza '_InIt std::find<std::string,std::string>(_InIt,const _InIt,const _Ty &)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _InIt=std::string,
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5296,1): error C2938: 'std::_Iter_value_t': non è stato possibile specializzare il modello di alias
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5296,53): error C3203: '_Is_character_or_bool': impossibile utilizzare classe modello non specializzato come argomento di modello per il parametro di modello '_Traits'. Previsto un tipo reale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1232,54): error C2794: 'reference' non è un membro di una classe di base diretta o indiretta di 'std::iterator_traits<_Iter>'
+          with
+          [
+              _Iter=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5301): message : vedere il riferimento all'istanza 'std::_Iter_ref_t<std::string>' di modello alias di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5301,1): error C2938: 'std::_Iter_ref_t': non è stato possibile specializzare il modello di alias
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5301): error C2062: tipo 'unknown-type' imprevisto
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342,1): error C3376: 'std::_Memchr_in_find_is_safe': sono consentiti solo modelli di membro dati statici
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342,1): error C2993: 'unknown-type': non è un tipo valido per il parametro di modello non di tipo '_Val'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342): error C2062: tipo 'unknown-type' imprevisto
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342,1): error C2143: errore di sintassi: ';' mancante prima di '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5342,1): error C2059: errore di sintassi: ')'
