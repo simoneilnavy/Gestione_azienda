@@ -1,0 +1,3 @@
+C:\Users\pino2\OneDrive\Desktop\Gestione_azienda-main\Gestione_azienda-simoneilnavy-visual_studio\Azienda\x64\Debug\Azienda.exe
+C:\Users\pino2\OneDrive\Desktop\Gestione_azienda-main\Gestione_azienda-main\Gestione_azienda-simoneilnavy-visual_studio\Azienda\x64\Debug\Azienda.exe
+C:\Users\pino2\OneDrive\Desktop\Azienda\x64\Debug\Azienda.exe
